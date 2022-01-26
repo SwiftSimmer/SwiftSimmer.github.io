@@ -8,6 +8,11 @@ body
 a { color: #8F3985;}
 a:hover { color: #81F4E1;}
 
+img
+{
+    width: 800px;
+}
+
 header
 {
     font-family: Georgia, serif;
