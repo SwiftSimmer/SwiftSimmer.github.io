@@ -4,3 +4,6 @@ body
     color: #25283D;
     background-color: #8B939C;
 }
+
+a { color: #81F4E1;}
+a:hover { color: #8F3985;}
