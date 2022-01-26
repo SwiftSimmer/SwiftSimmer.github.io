@@ -8,9 +8,9 @@ body
 a { color: #8F3985;}
 a:hover { color: #81F4E1;}
 
-img
+.smaller-image
 {
-    width: 800px;
+    width: 400px;
 }
 
 header
