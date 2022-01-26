@@ -7,3 +7,10 @@ body
 
 a { color: #81F4E1;}
 a:hover { color: #8F3985;}
+
+header
+{
+    font-family: Georgia, serif;
+    text-align: center;
+    color: #282b42;
+}
