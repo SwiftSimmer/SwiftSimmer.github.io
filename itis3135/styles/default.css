@@ -3,7 +3,14 @@ body
     font-family: monospace, sans-serif;
     color: #25283D;
     background-color: #8B939C;
-    margin: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+main
+{
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 a { color: #8F3985;}
@@ -19,5 +26,9 @@ header
     font-family: Georgia, serif;
     text-align: center;
     color: #282b42;
-    margin: 100px;
+}
+
+footer
+{
+    text-align: center; 
 }
