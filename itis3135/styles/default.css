@@ -16,9 +16,10 @@ main
 a { color: #8F3985;}
 a:hover { color: #81F4E1;}
 
-.profile-image
+img main
 {
     width: 400px;
+    height: 400px;
 }
 
 header
