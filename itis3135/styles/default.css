@@ -9,11 +9,17 @@ body
 
 main
 {
+   font-family: georgia, serif;
     margin-left: 100px;
     margin-right: 100px;
+    font-size: 20px;
 }
 
-a { color: #8F3985;}
+a 
+{ 
+    color: #8F3985; 
+    text-decoration: none;
+}
 a:hover { color: #81F4E1;}
 
 main img
@@ -25,10 +31,7 @@ main img
     margin-right: auto;
 }
 
-h2
-{
-    text-align: center;
-}
+h2 { text-align: center; }
 
 header
 {
@@ -37,7 +40,8 @@ header
     color: #282b42;
 }
 
-footer
-{
-    text-align: center; 
-}
+header h1 { font-size: 60px; }
+
+header nav { font-size: 20px; }
+
+footer { text-align: center; }
