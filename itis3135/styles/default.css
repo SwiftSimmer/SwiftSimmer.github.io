@@ -17,7 +17,7 @@ main
 
 a 
 { 
-    color: #8F3985; 
+    color: #8f6d39; 
     text-decoration: none;
 }
 a:hover { color: #81F4E1;}
@@ -42,6 +42,6 @@ header
 
 header h1 { font-size: 60px; }
 
-header nav { font-size: 20px; }
+header nav,footer nav { font-size: 20px; }
 
 footer { text-align: center; }
