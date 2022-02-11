@@ -1,0 +1,22 @@
+h1
+{
+  font-family: 'Comic Sans MS';
+}
+ul
+{
+  text-align: center;
+  
+}
+p
+{
+    font-family: 'Papyrus';
+    text-align: center;
+    
+    
+}
+main
+{
+    margin-top: 500px;
+    margin-left: 800px;
+    border: solid 500px purple;
+}

@@ -40,8 +40,44 @@ header
     color: #282b42;
 }
 
-header h1 { font-size: 60px; }
+table, th, td
+{
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table tr:nth-child(odd) 
+{
+    background-color: #467a72;
+}
+
+table tr:nth-child(even) 
+{
+    background-color: #81F4E1;
+}
+
+header h1 { font-size: 40px; }
 
 header nav,footer nav { font-size: 20px; }
 
-footer { text-align: center; }
+footer 
+{
+    text-align: center; 
+    font-family: georgia, serif;
+}
+
+label
+{
+    margin: 5px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.btn
+{
+    background-color: burlywood;
+}

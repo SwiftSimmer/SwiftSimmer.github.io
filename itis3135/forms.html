@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+  <html lang = "en-US">
+    
+  <head>
+    <meta charset = "utf-8" />
+      <title>
+        Zachary Price || ITIS 3135-091 || Forms
+      </title>
+      <link href = "styles/default.css" type = "text/css" rel = "stylesheet" />
+  </head>
+  
+  <body>
+    <div data-include="./components/header.html"></div>
+  <main>
+    <h2>Forms</h2>
+    <p>Sign Up<br> * = Required field </p>
+    <label for = "name">Name *</label><br>
+    <input type = "text" name = "name" placeholder = "Name" required><br>
+    <label for = "phone">Phone Number *</label><br>
+    <input type = "text" name = "phone" placeholder = "Phone Number" required><br>
+    <label for = "email">Email Address *</label><br>
+    <input type = "text" name = "email" placeholder = "Email Address" required>
+    <p> Do you want to sign up for mailing list or text messages? </p>
+    <input type = "radio" name = "yes" value = "yes" required>
+    <label for = "yes">yes</label><br>
+    <input type = "radio" name = "no" value = "no" required>
+    <label for = "no">no</label><br>
+    <p> Which ones do yo want to sign up for? </p>
+    <input type = "checkbox" name = "mail" value = "mailing list">
+    <label for = "mail">Mailing List</label><br>
+    <input type = "checkbox" name = "texts" value = "text">
+    <label for = "texts">Text Messages</label><br>
+    <p> How did you hear about us? </p>
+    <select name = "how_heard" id = "how_heard">
+        <option value="friend">Friend</option>
+        <option value="family">Family Member</option>
+        <option value="newspaper">Newspaper</option>
+        <option value="internet">Internet</option>
+    </select><br>
+    <input class = "btn" type="reset" value="reset">
+    <input class = "btn" type="submit" value="Submit">
+  </main>
+  <div data-include="./components/footer.html"></div>
+
+  <script src="scripts/include.js"></script>
+  </body>
+  </html>
