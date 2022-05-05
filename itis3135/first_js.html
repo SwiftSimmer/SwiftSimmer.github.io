@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+  <html lang = "en-US">
+    
+  <head>
+    <meta charset = "utf-8" />
+      <title>
+        Zachary Price || ITIS 3135-091 || Zombie Panther || First JS
+      </title>
+      <link href = "styles/default.css" type = "text/css" rel = "stylesheet" />
+  </head>
+  
+  <body>
+    <div data-include="components/header.html"></div>
+  <main>
+    <h2>My First JS</h2>
+    <h3 id = date>
+    <script>
+        dateAndTime()
+    </script>
+    </h3>
+    <button onclick = "scriptTest()">Test Script</button><br>
+    What is your name? <input type = "text" id = "name"  placeholder = "Name" required><br>
+    How are you feeling? <input type = "text" id = "feeling" placeholder = "Feeling" required><br>
+    <input type = "button" value = "Submit" onclick = "greeting();">
+    <p id = greetingoutput>|</p>
+
+    <button onclick = "sumOfTwoNumbers();">Add two numbers</button>
+    <button onclick = "calculateTotal();">Calculate the subtotal</button>
+    <button onclick = "calculateTip();">Calculate tip</button>
+    <button onclick = "findPantherPopulation();">find the new population of panthers</button>
+    <button onclick = "pantherCubs();">Give birth to a litter of panther cubs</button><br>
+    <p id = litter>|</p>
+
+  </main>
+  <div data-include="components/footer.html"></div>
+
+  <script src="scripts/include.js"></script>
+  <script src = "scripts/defaultscripts.js"></script>
+  </body>
+  </html>
