@@ -7,16 +7,65 @@
         Debbie's Sweet Treats || Gallery
       </title>
       <link href = "styles/default.css" type = "text/css" rel = "stylesheet" />
+      <link href = "styles/gallery.css" type = "text/css" rel = "stylesheet" />
   </head>
   
   <body>
     <div data-include="components/header.html"></div>
   <main>
     <h2>Gallery</h2>
-    <p>wip</p>
+    <div class="slideshow">
+      <!--slides-->
+      <div class="slide">
+          <img src="images/babyshowercake.JPG" alt="Baby Shower Cake">
+      </div>
+      <div class="slide">
+          <img src="images/bearcake.JPG" alt="Cake shaped like a bear">
+      </div>
+      <div class="slide">
+          <img src="images/cakewithcupcakes.JPG" alt="Cake with cupcakes">
+      </div>
+      <div class="slide">
+          <img src="images/fondantcake.jpg" alt="cake with fondant decorations">
+      </div>
+      <div class="slide">
+          <img src="images/mmcake.jpg" alt="M&M's Cake">
+      </div>
+      <div class="slide">
+          <img src="images/peanutbuttercup.JPG" alt="Peanut butter cup cake">
+      </div>
+      <!--scroll buttons-->
+      <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      <!--caption-->
+      <div class="caption-box">
+          <p id="caption"></p>
+      </div>
+      <!--thumbnails-->
+      <div class="row">
+          <div class="column">
+              <img class="demo" src="images/babyshowercake.JPG" onclick="currentSlide(1)" alt="Baby Shower Cake">
+          </div>
+          <div class="column">
+              <img class="demo" src="images/bearcake.JPG" onclick="currentSlide(2)" alt="Cake shaped like a bear">
+          </div>
+          <div class="column">
+              <img class="demo" src="images/cakewithcupcakes.JPG" onclick="currentSlide(3)" alt="Cake with cupcakes">
+          </div>
+          <div class="column">
+              <img class="demo" src="images/fondantcake.jpg" onclick="currentSlide(4)" alt="cake with fondant decorations">
+          </div>
+          <div class="column">
+              <img class="demo" src="images/mmcake.jpg" onclick="currentSlide(5)" alt="M&M's Cake">
+          </div>
+          <div class="column">
+              <img class="demo" src="images/peanutbuttercup.JPG" onclick="currentSlide(6)" alt="Peanut butter cup cake">
+          </div>
+      </div>
+  </div>
   </main>
   <div data-include="components/footer.html"></div>
-
+  <script src="scripts/gallery.js"></script>
   <script src="scripts/include.js"></script>
   </body>
   </html>

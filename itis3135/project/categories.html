@@ -7,13 +7,44 @@
         Debbie's Sweet Treats || Categories
       </title>
       <link href = "styles/default.css" type = "text/css" rel = "stylesheet" />
+      <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.min.css">
+      <link href="styles/categories.css"  rel="stylesheet">
+      <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	    <script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+      <script src="scripts/categories.js"></script>
   </head>
   
   <body>
     <div data-include="components/header.html"></div>
   <main>
     <h2>Categories</h2>
-    <p>wip</p>
+		<p>
+			This is some of the many cake styles that Debbies Sweet Treats can make, click through the menus to see what we can do.
+		</p>
+        <!-- Tabs HTML code -->
+        <div id="accordion">
+			<h3>Wedding Cakes</h3>
+			<div>
+				<p>
+					with our wedding cakes we will meet with you to discuss the type of cake you want we use homemade buttercream iceing on all of our cakes to provide the best taste for our customers
+				</p>
+				<img src="images/weddingcake.JPG" alt="Wedding Cake">
+			</div>
+			<h3>Birthday Cakes</h3>
+			<div>
+				<p>
+					With our Birthday cakes we can do many different styles from a plain sheet cake to ones with fondant decorations or even ones that are shaped like a character or aniaml
+				</p>
+				<img src="images/birthday.jpg" alt="Birthday Cakes">
+			</div>
+			<h3>Cupcakes</h3>
+			<div>
+				<p>
+					While full-size cakes are our specialty we also make cupcakes, we use the same great ingredients that we do for our full-size cakes we can make them anywere from fancy to silly like the ones here
+				</p>
+				<img src="images/cupcakes.jpg" alt="Cupcakes">
+			</div>
+		</div>
   </main>
   <div data-include="components/footer.html"></div>
 

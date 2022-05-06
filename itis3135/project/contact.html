@@ -7,13 +7,40 @@
         Debbie's Sweet Treats || Contact
       </title>
       <link href = "styles/default.css" type = "text/css" rel = "stylesheet" />
+      <link href = "styles/contact.css" type = "text/css" rel = "stylesheet" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="scripts/contact.js"></script>
   </head>
   
   <body>
     <div data-include="components/header.html"></div>
   <main>
     <h2>Contact</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi in nulla posuere sollicitudin. Velit dignissim sodales ut eu sem integer vitae justo eget. In aliquam sem fringilla ut morbi. Cursus turpis massa tincidunt dui ut ornare lectus.</p>
+    <div class="container">
+      <form action="">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="firstname" placeholder="Full Name">
+    
+        <label for="number">Phone number</label>
+        <input type="text" id="number" name="number" placeholder="(555)555-5555">
+    
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="example@gmail.com">
+
+        <label for="cake">What Type of cake would you like to inquire about</label>
+        <select id="cake" name="cake">
+        <option value="Wedding">Wedding</option>
+        <option value="Birthday">Birthday</option>
+        <option value="Cupcakes">Cupcakes</option>
+    </select>
+
+      <label for="message">Describe what you would like your cake to be</label>
+      <textarea id="message" name="message" placeholder="message" style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit" onclick="">
+    
+      </form>
+    </div> 
   </main>
   <div data-include="components/footer.html"></div>
 
